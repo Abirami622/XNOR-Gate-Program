@@ -1,4 +1,4 @@
-module xnorg_dataflow (A, B, Y);
+module xnor_new (A, B, Y);
 input A, B;
 output Y;
 assign Y = ~(A ^ B) ;
